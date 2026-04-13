@@ -23,11 +23,14 @@ function Loader({ onDone }) {
   useEffect(() => {
     let i = 0
     const id = setInterval(() => {
-      setLines(prev => [...prev, boot[i]])
-      i++
-      if (i >= boot.length) {
-        clearInterval(id)
-        setTimeout(onDone, 600)
+      if (i < boot.length) {
+        const line = boot[i]
+        setLines(prev => [...prev, line])
+        i++
+        if (i >= boot.length) {
+          clearInterval(id)
+          setTimeout(onDone, 700)
+        }
       }
     }, 380)
     return () => clearInterval(id)
@@ -54,7 +57,7 @@ function Loader({ onDone }) {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.25 }}
               className={`font-mono text-sm mb-2 ${
-                line.includes('READY')
+                typeof line === 'string' && line.includes('READY')
                   ? 'text-g-bright font-bold neon-text'
                   : 'text-g-muted'
               }`}
