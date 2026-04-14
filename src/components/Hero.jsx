@@ -94,7 +94,7 @@ export default function Hero() {
               className="text-g-muted text-sm md:text-base max-w-2xl mb-10 leading-relaxed"
             >
               <span className="text-g-dim">// </span>
-              Building clean, dynamic web apps from Scarborough, Toronto.
+              Building clean, dynamic web apps from Mississauga, Ontario.
               BCA + Full Stack Diploma. Currently{' '}
               <span className="text-g-bright">open to work</span> in the GTA.
             </motion.p>

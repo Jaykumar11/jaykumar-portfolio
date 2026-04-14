@@ -97,7 +97,7 @@ export default function Experience() {
 {`{
   "degree":   "BCA",
   "diploma":  "Full Stack Web Dev",
-  "location": "Scarborough, Toronto",
+  "location": "Mississauga, Toronto",
   "status":   "seeking_work",
   "noc_target": ["21232", "21234"],
   "pr_path":  "Express Entry STEM",

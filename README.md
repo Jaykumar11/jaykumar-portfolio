@@ -175,4 +175,4 @@ MIT — feel free to use this as a template. A credit or star ⭐ is appreciated
 
 ---
 
-*Built with 💚 and 🌱 by Jaykumar Trivedi · Scarborough, Toronto*
+*Built with 💚 and 🌱 by Jaykumar Trivedi · Mississauga, Toronto*

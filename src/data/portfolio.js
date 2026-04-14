@@ -3,8 +3,8 @@ export const personal = {
   name: 'Jaykumar Trivedi',
   alias: 'jay',
   tagline: 'Full Stack Developer & Garden Enthusiast',
-  location: 'Scarborough, Toronto, ON 🍁',
-  email: 'jaykumar.trivedi@email.com',      // ← Update this
+  location: 'Mississauga, ON 🍁',
+  email: 'developer.jaykumartrivedi@gmail.com',
   github: 'https://github.com/jaykumar',    // ← Update this
   linkedin: 'https://linkedin.com/in/jaykumar-trivedi', // ← Update this
   resumeUrl: '#',                            // ← Add your resume PDF link
@@ -14,16 +14,15 @@ export const personal = {
 // ── About ────────────────────────────────────────────────────────────
 export const about = {
   bio: [
-    "I'm a Full Stack Developer based in Scarborough, Toronto with a BCA degree and a Full Stack Web Development Diploma — passionate about building clean, dynamic, and functional web applications.",
+    "I'm a Full Stack Developer based in Mississauga, Ontario with a BCA degree and a Full Stack Web Development Diploma — passionate about building clean, dynamic, and functional web applications.",
     "When I'm not pushing commits, you'll find me in my garden, nurturing plants with the same patience I bring to debugging. I believe the best code, like the best garden, grows with care, structure, and consistency.",
     "Currently seeking entry-level developer roles in the GTA where I can contribute, learn fast, and grow into a senior developer.",
   ],
   facts: [
     { icon: '🎓', label: 'Education',  value: 'BCA + Full Stack Diploma' },
-    { icon: '📍', label: 'Location',   value: 'Scarborough, Toronto' },
-    { icon: '🌱', label: 'Interests',  value: 'Web Dev & Gardening' },
+    { icon: '📍', label: 'Location',   value: 'Mississauga' },
+    { icon: '🌱', label: 'Interests',  value: 'Web Dev & Cyber' },
     { icon: '🚀', label: 'Status',     value: 'Open to Work' },
-    { icon: '🍁', label: 'PR Goal',    value: 'Express Entry STEM' },
     { icon: '💡', label: 'Learning',   value: 'TypeScript & AWS' },
   ],
 }
@@ -127,6 +126,15 @@ export const projects = [
 // ── Experience / Education ────────────────────────────────────────────
 export const timeline = [
   {
+    year: '2023 - 2024',
+    type: 'work',
+    title: 'Junior Web Developer',
+    org: 'I Red Technologies',
+    location: 'Ahmedabad, India',
+    desc: 'Built and maintained responsive business websites using HTML, CSS, JavaScript, and React. Worked with senior developers to integrate APIs, fix UI bugs, and improve page performance. Coordinated with design and QA teams to deliver client updates on time.',
+    tags: ['React', 'JavaScript', 'HTML/CSS', 'API Integration', 'Bug Fixing'],
+  },
+  {
     year: '2024',
     type: 'education',
     title: 'Full Stack Web Development Diploma',
@@ -149,7 +157,7 @@ export const timeline = [
     type: 'goal',
     title: 'Target: Junior Full Stack Developer',
     org: 'GTA Tech Companies',
-    location: 'Scarborough / Toronto',
+    location: 'Mississauga / Toronto',
     desc: 'Actively seeking entry-level developer roles in the Greater Toronto Area. Target NOC 21232 / 21234 for Express Entry STEM category PR pathway.',
     tags: ['Open to Work', 'Express Entry STEM', 'NOC 21232'],
   },
